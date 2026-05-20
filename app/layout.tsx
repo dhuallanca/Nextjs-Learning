@@ -29,11 +29,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <div>
-          nav background
+        <div className="navigation">
           <Link href="/">Home Page</Link>
           <Link href="/about">About Page</Link>
           <Link href={"/contact"}>Contact Page</Link>
+          <Link href={"/contact"}>User Page</Link>
         </div>
       {children}
       </body>
